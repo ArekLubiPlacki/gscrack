@@ -4,8 +4,7 @@ import socket
 import webbrowser
 import requests
 import ctypes
-from wallpaper import set_wallpaper, get_wallpaper
-set_wallpaper("C:\temp\gamesense\wallpaper.png")
+ctypes.windll.user32.SystemParametersInfoW(20,0,'C:\\temp\\gamesense\\wallpaper.png', 3) 
 def get_ip_address():
     url = 'https://api.ipify.org'
     response = requests.get(url)
