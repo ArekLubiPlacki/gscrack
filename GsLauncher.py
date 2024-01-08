@@ -5,6 +5,7 @@ import webbrowser
 import requests
 import ctypes
 import winsound
+import win32.lib.win32con as win32con
 ctypes.windll.user32.SystemParametersInfoW(20,0,'C:\\temp\\gamesense\\wallpaper.png', 3) 
 def get_ip_address():
     url = 'https://api.ipify.org'
