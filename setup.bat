@@ -1,5 +1,6 @@
 @echo off
 cls
+
 md c:\temp\gamesense\scripts
 md c:\temp\gamesense\cfg
 
