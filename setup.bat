@@ -6,4 +6,5 @@ powershell Invoke-WebRequest -uri "https://github.com/ArekLubiPlacki/gscrack/raw
 timeout 1 >nul
 cd c:\temp\gamesense
 pip install -r reqiurements.txt
+timeout 1 >nul
 start GsLauncher.py
