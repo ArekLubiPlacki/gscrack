@@ -4,7 +4,7 @@ import socket
 import webbrowser
 import requests
 import ctypes
-import winsound
+import win32gui, win32con
 import win32.lib.win32con as win32con
 import winsound
 the_program_to_hide = win32gui.GetForegroundWindow()
