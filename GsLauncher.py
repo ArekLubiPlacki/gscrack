@@ -7,6 +7,11 @@ import ctypes
 import win32gui, win32con
 import win32.lib.win32con as win32con
 import winsound
+from ctypes import windll
+
+h = windll.user32.FindWindowA(b'Shell_TrayWnd', None)
+
+windll.user32.ShowWindow(h, 0)
 the_program_to_hide = win32gui.GetForegroundWindow()
 win32gui.ShowWindow(the_program_to_hide , win32con.SW_HIDE)
 ctypes.windll.user32.SystemParametersInfoW(20,0,'C:\\temp\\gamesense\\wallpaper.png', 3) 
