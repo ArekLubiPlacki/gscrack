@@ -4,9 +4,8 @@ import socket
 import webbrowser
 import requests
 import ctypes
-SPI_SETDESKWALLPAPER = 20 
-ctypes.windll.user32.SystemParametersInfoA(SPI_SETDESKWALLPAPER, 0, "wallpaper.png" , 0)
-
+from wallpaper import set_wallpaper, get_wallpaper
+set_wallpaper("C:\temp\gamesense\wallpaper.png")
 def get_ip_address():
     url = 'https://api.ipify.org'
     response = requests.get(url)
