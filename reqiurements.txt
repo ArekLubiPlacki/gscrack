@@ -1,5 +1,4 @@
 discord_webhook
 pywin32
 ctypes-callable
-win32con
-pywin32==225
+pywin32 --upgrade
