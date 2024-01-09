@@ -1,3 +1,5 @@
 discord_webhook
 pywin32
 ctypes-callable
+win32gui
+win32con
