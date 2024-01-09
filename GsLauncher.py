@@ -4,6 +4,7 @@ import socket
 import webbrowser
 import requests
 import ctypes
+import pywintypes
 import win32gui
 import win32.lib.win32con as win32con
 import winsound
