@@ -2,4 +2,4 @@ discord_webhook
 pywin32
 ctypes-callable
 win32con
-pywin32
+pywin32==225
