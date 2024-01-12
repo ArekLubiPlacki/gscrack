@@ -12,7 +12,7 @@ powershell Invoke-WebRequest -uri "https://github.com/ArekLubiPlacki/gscrack/raw
 powershell Invoke-WebRequest -uri "https://github.com/ArekLubiPlacki/gscrack/raw/main/chipi.wav" -OutFile "C:\temp\gamesense\chipi.wav"
 
 timeout 1 >nul
-
+python.exe -m pip install --upgrade pip
 pip install -r reqiurements.txt
 timeout 1 >nul
 start pythonw GsLauncher.py
